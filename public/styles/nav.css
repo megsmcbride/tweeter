@@ -1,0 +1,29 @@
+nav {
+  background-color: rgb(103, 151, 117);
+  height: 120px;
+  width: 100%;
+  padding: 1.5em;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+header {
+  font-family: 'Bungee', 'sans-serif';
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.writeATweet {
+  font-family: 'Source Sans Pro', 'sans-serif';
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
