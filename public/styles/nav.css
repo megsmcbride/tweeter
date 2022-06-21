@@ -1,29 +1,53 @@
 nav {
-  background-color: rgb(103, 151, 117);
+  background-color: #679775;
+  color: #ffffff;
   height: 120px;
   width: 100%;
-  padding: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
   position: fixed;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  
+  justify-content: space-between;  
 }
 
-header {
+.header {
   font-family: 'Bungee', 'sans-serif';
-  font-size: 30px;
+  font-size: 40px;
   display: flex;
-  flex-direction: row;
+  align-items: flex-end;
   
 }
 
 .writeATweet {
   font-family: 'Source Sans Pro', 'sans-serif';
   font-size: 20px;
+
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+}
+
+.fas-fa-angle-double-down {
+  display: flex;
+  color: red;
+  background-color: transparent;
+  padding: 5px;
+  align-self: center;
+}
+
+.profile {
+  font-family: 'Source Sans Pro', 'sans-serif';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  height: 130px;
+}
+
+.name {
+  color: #ac3d3d;
 }
