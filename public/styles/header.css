@@ -1,0 +1,25 @@
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+.profile {
+  font-family: 'Source Sans Pro', 'sans-serif';
+  display: flex;
+  padding-top: 230px;
+  height: 400px;
+  width: 100%;
+}
+
+.name {
+  color: #ac3d3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: -40px;
+}

@@ -39,15 +39,3 @@ nav {
   align-self: center;
 }
 
-.profile {
-  font-family: 'Source Sans Pro', 'sans-serif';
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 120px;
-  height: 130px;
-}
-
-.name {
-  color: #ac3d3d;
-}
