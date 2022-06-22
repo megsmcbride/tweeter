@@ -3,7 +3,7 @@
 #tweet-text {
   font-family: 'Source Sans Pro', 'sans-serif';
   font-weight: bold;
-  color: #ac3d3d;
+  color: #654949;
   height: 50px;
   width: 100%;
   background-color: transparent;
@@ -13,21 +13,29 @@
   border-right: 0;
 }
 
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap ;
+
+}
 
 .tweet-button{
   background-color: #679775;
   font-family: 'Bungee', 'sans-serif';
-  color: #ffffff;
+  color: #f4f1ec;
+  margin-top: 15px;
 }
 
 .counter {
   font-family: 'Bungee', 'sans-serif';
-  color: #ac3d3d;
+  color: #654949;
+  margin-top: 20px;
+
 }
 
-.bottom-display {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 15px;
+.counter.tweet-is-too-long {
+  font-family: 'Bungee', 'sans-serif';
+  color: red;
 }
+

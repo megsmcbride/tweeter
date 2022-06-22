@@ -15,24 +15,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 150px;
-  height: 500px;
+  padding-top: 170px;
+  height: 450px;
   width: 100%;
+  
 
 }
 
 img {
   max-width:100%;
   height:auto;
+  ;
 }
 
 .header-text {
-  color: #ffffff;
+  color: #f4f1ec;
   font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 .name {
-  color: #ac3d3d;
+  color: #654949;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
