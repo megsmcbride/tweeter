@@ -17,7 +17,6 @@ html {
 body {
   display: flex;
   font-family: 'Source Sans Pro', 'sans-serif';
-  color: #ac3d3d;
   background-color: #f4f1ec;
   font-size: 24px;
   flex-direction: column;
@@ -26,22 +25,12 @@ body {
 }
 
 main {
-  display: flex;
   width: 90%;
-  margin: auto;
-  position: initial;
   background-color: #f4f1ec;
-  justify-content: flex-end;
-
-  
+  margin-top:  40px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 100px;
-}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

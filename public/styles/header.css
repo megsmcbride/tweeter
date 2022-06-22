@@ -1,4 +1,5 @@
-header{
+.header{
+  background-color: #679775;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,11 +9,26 @@ header{
 
 
 .profile {
-  font-family: 'Source Sans Pro', 'sans-serif';
+  background-image: url("../images/grid-me.png");
+  background-color: #7aa386;
   display: flex;
-  padding-top: 230px;
-  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  height: 500px;
   width: 100%;
+
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+.header-text {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 .name {
@@ -21,5 +37,5 @@ header{
   flex-direction: column;
   justify-content: flex-start;
   position: relative;
-  top: -40px;
+  top: -40px
 }
