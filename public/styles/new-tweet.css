@@ -39,3 +39,51 @@ form {
   color: red;
 }
 
+section.tweet-container {
+  display: flex;
+  border:#49433c solid 3px;
+  margin-top: 20px;
+  flex-direction: column;
+  font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.tweet-container-header {
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.username {
+  display: flex;
+  margin-left: auto;
+  padding-right: 25px;
+  color: #9c9a98;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tweet-profile-image {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.previous-tweet-text {
+  border-bottom:#49433c 3px solid;
+  background-color: transparent;
+  margin: 5px;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.tweet-container-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  /* border-top: #49433c 3px solid ; */
+  padding: 8px;
+}
+
+i:hover {
+  color:  #7aa386;
+}
