@@ -13,6 +13,7 @@ $(document).ready(function() {
   };
 
   const renderTweets = function(tweets) {
+    $('.tweets-column').empty();
     for (let tweet of tweets) {
       $('.tweets-column').prepend(createTweetElement(tweet));
     }
@@ -81,7 +82,9 @@ $(document).ready(function() {
       success: tweets => renderTweets(tweets),
       error: (data, text, error) => console.error("There is an error", error)
     });
-
   };
+
+  loadTweets()
+
 });
 
