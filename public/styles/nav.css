@@ -1,5 +1,4 @@
 nav {
-  background-color: #679775;
   height: 120px;
   width: 100%;
   padding: 1em 1.5em;
@@ -7,12 +6,13 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;  
+  z-index: 1000;
 }
 
 .header {
   font-family: 'Bungee', 'sans-serif';
   color: #f4f1ec;
-  background-color: #679775;
+  /* background-color: #679775; */
   font-size: 40px;
   display: flex;
   align-items: flex-end;
@@ -62,3 +62,8 @@ nav {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  nav {
+    background-color: #679775;
+  }
+}

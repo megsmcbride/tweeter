@@ -49,12 +49,12 @@ $(document).ready(function() {
 
     $('.tweet-error').slideUp()
     if (!textInput) {
-      return $('.tweet-error').text('Please enter text').slideDown()
+      return $('.tweet-error').text('⚠ Please enter text ⚠').slideDown()
   
     }
 
     if (textInput.length >140) {
-      return $('.tweet-error').text('Tweet exceeds maximum characters').slideDown()
+      return $('.tweet-error').text('⚠ Tweet exceeds maximum characters ⚠').slideDown()
     }
 
 
