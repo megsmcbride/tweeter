@@ -34,17 +34,31 @@ form {
 
 }
 
+.tweet-error {
+  display: none;
+  font-family: 'Source Sans Pro', 'sans-serif';
+  border: red solid 4px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 1px;
+}
+
 .counter.tweet-is-too-long {
   font-family: 'Bungee', 'sans-serif';
   color: red;
 }
 
-section.tweet-container {
+.tweet-container {
   display: flex;
   border:#49433c solid 3px;
   margin-top: 20px;
   flex-direction: column;
   font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.tweet-container:hover {
+  box-shadow: 0 0 11px #49433c;
 }
 
 .tweet-container-header {
@@ -80,8 +94,8 @@ section.tweet-container {
   display: flex;
   justify-content: space-between;
   font-size: small;
-  /* border-top: #49433c 3px solid ; */
   padding: 8px;
+
 }
 
 i:hover {
