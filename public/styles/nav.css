@@ -16,6 +16,7 @@ nav {
   font-size: 40px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   
 }
 
@@ -37,6 +38,8 @@ nav {
   animation: button 2s infinite
 }
 
+
+/* animation for down arrow button */
 @keyframes button {
   20%, 53%, 80%, 0%, 100% {
       -webkit-animation-timing-function: cubic-bezier(0.215,.61,.355,1);
