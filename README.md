@@ -16,3 +16,11 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- Bodyparse
+- Chance
+
+## Final Project
+!["Desktop Mode"](https://github.com/megsmcbride/tweeter/tree/master/images/desktop-mode.png)
+!["Mobile Mode"](https://github.com/megsmcbride/tweeter/tree/master/images/mobile-mode.png)
+!["No Text Error"](https://github.com/megsmcbride/tweeter/tree/master/images/error-message1.png)
+!["Exceed Max Character Error](https://github.com/megsmcbride/tweeter/tree/master/images/error-message2.png)
