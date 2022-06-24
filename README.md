@@ -22,9 +22,12 @@ This repository is the starter code for the project: Students will fork and clon
 ## Final Project
 !["Desktop Mode"](https://github.com/megsmcbride/tweeter/blob/master/docs/desktop-mode.png)
 ^ This shows the app for a desktop screen size
+
 !["Mobile Mode"](https://github.com/megsmcbride/tweeter/blob/master/docs/mobile-mode.png)
 ^ This shows the app for a mobile screen size
+
 !["No Text Error"](https://github.com/megsmcbride/tweeter/blob/master/docs/error-message1.png)
 ^ This shows the error when submitting a tweet with no text
+
 !["Exceed Max Character Error]https://github.com/megsmcbride/tweeter/blob/master/docs/error-message2.png)
 ^ This shows the error when submiting a tweet that exceeds the max 140 character limit
