@@ -20,7 +20,7 @@ This repository is the starter code for the project: Students will fork and clon
 - Chance
 
 ## Final Project
-!["Desktop Mode"](https://github.com/megsmcbride/tweeter/tree/master/images/desktop-mode.png)
-!["Mobile Mode"](https://github.com/megsmcbride/tweeter/tree/master/images/mobile-mode.png)
-!["No Text Error"](https://github.com/megsmcbride/tweeter/tree/master/images/error-message1.png)
-!["Exceed Max Character Error](https://github.com/megsmcbride/tweeter/tree/master/images/error-message2.png)
+!["Desktop Mode"](https://github.com/megsmcbride/tweeter/tree/master/public/images/desktop-mode.png)
+!["Mobile Mode"](https://github.com/megsmcbride/tweeter/tree/master/public/images/mobile-mode.png)
+!["No Text Error"](https://github.com/megsmcbride/tweeter/tree/master/public/images/error-message1.png)
+!["Exceed Max Character Error](https://github.com/megsmcbride/tweeter/tree/master/public/images/error-message2.png)
