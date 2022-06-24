@@ -29,5 +29,5 @@ This repository is the starter code for the project: Students will fork and clon
 !["No Text Error"](https://github.com/megsmcbride/tweeter/blob/master/docs/error-message1.png)
 ^ This shows the error when submitting a tweet with no text
 
-!["Exceed Max Character Error]https://github.com/megsmcbride/tweeter/blob/master/docs/error-message2.png)
+!["Exceed Max Character Error](https://github.com/megsmcbride/tweeter/blob/master/docs/error-message2.png)
 ^ This shows the error when submiting a tweet that exceeds the max 140 character limit
