@@ -65,7 +65,7 @@ $(document).ready(function() {
       data: $('#form-section').serialize(),
       success: () => {
         loadTweets();
-        $(this).children('textare').val('');
+        $('#tweet-text').val('');
         $('.counter').text(140);
       },
       error: (data, text, error) => console.error("There is an error", error)

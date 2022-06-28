@@ -89,6 +89,9 @@ form {
   margin: 5px;
   padding: 10px;
   padding-bottom: 15px;
+  word-wrap: relative;
+  overflow-wrap: break-word;
+ 
 }
 
 .tweet-container-bottom {
